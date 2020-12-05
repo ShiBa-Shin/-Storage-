@@ -25,7 +25,7 @@ To make our life a little bit easier, I managed this template for those small pr
 ### __1. Clone this repo__
 
 ```bash
-npx degit ShiBa-Shin/Backup/template/t-dev-sidekick
+npx degit ShiBa-Shin/dev-associates-backup/template/t-dev-sidekick
 ```
 
 ### __2. Install all the dependencies__
