@@ -1,4 +1,5 @@
 const path = require('path')
+const CircularDependencyPlugin = require('circular-dependency-plugin')
 
 module.exports = {
   entry: './src/script.ts',
@@ -17,7 +18,7 @@ module.exports = {
         test: /\.ts$/,
         use: ['ts-loader']
       },
-      
+
       {
         test: /\.(sass|scss)$/,
         use: [
@@ -44,4 +45,15 @@ module.exports = {
       '.scss'
     ]
   },
+
+  plugins: [
+    // https://www.npmjs.com/package/circular-dependency-plugin
+    new CircularDependencyPlugin({
+      exclude: /a\.js|node_modules/,
+      include: /src/,
+      failOnError: false,
+      allowAsyncCycles: false,
+      cwd: process.cwd(),
+    })
+  ]
 }

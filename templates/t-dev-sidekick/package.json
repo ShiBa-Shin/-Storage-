@@ -4,23 +4,22 @@
   "date": "11.30.2020",
   "description": "A template for those small projects.",
   "main": "index.js",
-
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
-  "keywords": ["template"],
+  "keywords": [
+    "template"
+  ],
   "author": "Silver Von",
   "license": "ISC",
-
   "dependencies": {
+    "circular-dependency-plugin": "^5.2.2",
     "lodash": "^4.17.20",
     "sass": "^1.29.0",
     "typescript": "^4.1.2"
   },
-  
   "devDependencies": {
     "@types/lodash": "^4.14.165",
     "autoprefixer": "^10.0.4",
