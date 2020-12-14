@@ -2,7 +2,7 @@
 
 ## __About__
 
-In here, **sidekick** means a small project, which to improve our programming skills (or for some extra money 🤑). But still, there're a lot of tedious works to do to start a new one. Things like creating a bunch of files(folders), or install different dependencies...etc. 
+In here, **sidekick** means a small project, which to improve our programming skills (or for some extra money 🤑). But still, there're a lot of tedious works to do to start a new one. Things like creating a bunch of files(folders), or install different dependencies...etc.
 
 To make our life a little bit easier, I managed this template for those small projects which doesn't need to involve any frameworks.  So we can start a new one anytime without repeat ourself.
 
@@ -25,7 +25,7 @@ To make our life a little bit easier, I managed this template for those small pr
 ### __1. Clone this repo__
 
 ```bash
-npx degit ShiBa-Shin/dev-associates-backup/template/t-dev-sidekick
+npx degit ShiBa-Shin/dev-associates-backup/templates/t-dev-sidekick my-project
 ```
 
 ### __2. Install all the dependencies__
