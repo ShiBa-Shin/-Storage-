@@ -1,8 +1,9 @@
 {
   "name": "template-dev-sidekick",
   "version": "1.0.0",
-  "date": "11.30.2020",
-  "description": "A template for those small projects.",
+  "start-date": "xx.xx.202x",
+  "finish-date": "xx.xx.202x",
+  "description": "A template for small projects.",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.165",
     "autoprefixer": "^10.0.4",
+    "compression-webpack-plugin": "^7.1.0",
     "css-loader": "^5.0.1",
     "postcss-loader": "^4.1.0",
     "sass-loader": "^10.1.0",
