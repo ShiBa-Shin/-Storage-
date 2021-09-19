@@ -4,6 +4,7 @@ const CompressionPlugin = require("compression-webpack-plugin")
 const zlib = require("zlib")
 
 module.exports = {
+  mode: 'development',
   entry: './src/script.ts',
   watch: true,
   devtool: 'eval-source-map',
