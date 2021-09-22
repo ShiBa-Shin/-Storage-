@@ -1,6 +1,6 @@
 # About this repo
 
-This repository named 'Backup', so it's obvious. I'm not that kind of guy who like organize everything but I do hate to find something again once I've owned.
+I'm not the kind of guy who organize everything but I do hate to find something again once I've owned. So here we are.
 
 Sometimes you lose your stuff (accidentally?) and when you try to get them back, there're gonna be so many tedious works to do. NOPE! That's not the idea.
 
