@@ -56,4 +56,3 @@ _Hack is designed to be a workhorse typeface for source code._
 <br>
 
 There're lots of fonts for different coding experiences. These 4 are just my personal favorites. You can try different fonts out in [here](https://www.programmingfonts.org/) and find those fonts suit you the most.
----
