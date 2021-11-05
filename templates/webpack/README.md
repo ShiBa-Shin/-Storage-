@@ -16,8 +16,6 @@ To make our life a little bit easier, I managed this template for those small pr
 * TypeScript
 * webpack
 
-> BTW, I didn't install `Lodash` intentionally but somehow it's there. And yes, you can `import` it in your `ts` file.
-
 <br>
 
 ## __Usage__
